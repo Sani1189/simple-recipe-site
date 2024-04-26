@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
   <title>Global Kitchen</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -24,10 +25,10 @@
 
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active">
-            <a class="nav-link h4" href="#home">Home</a>
+            <a class="nav-link h5" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link h4" href="#footer">Contact</a>
+            <a class="nav-link h5" href="#contact" onclick="scrollToFooter()">Contact</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0 ">
@@ -87,10 +88,6 @@
         </li>
       </ul>
     </section>
-
-    <section id="random">
-      
-    </section>
   </div>
 
     <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark mybgcolor text-white">
@@ -99,7 +96,7 @@
               <div class="col-md-4 text-center mx-auto">
                   <h5>Global Kitchen</h5>
                   <p>
-                      We are a team of dedicated professionals delivering delicious meals to your doorstep
+                    We are a team of dedicated recipe maker. Make your life easy with our recipes.
                   </p>
               </div>
               <div class="col-md-4 text-center mx-auto">
@@ -127,6 +124,12 @@
           <small>&copy; 2024 Sani. All rights reserved.</small>
       </div>
   </footer>
+  <script>
+    function scrollToFooter() {
+        const footer = document.getElementById('sticky-footer');
+        footer.scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
   
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -138,6 +141,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
   <script src="script.js"></script>
+  
 </body>
 
 </html>
