@@ -1,0 +1,21 @@
+.back-image{
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 2%;
+}
+
+.navbar-dark{
+    background-color: #18181b!important;
+    border-bottom: 1px solid #8a8888;
+
+}
+.mybgcolor{
+    background-color: #18181b!important;
+
+}
