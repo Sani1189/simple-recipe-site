@@ -1,73 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Kitchen</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/6b1870cd0b.js" crossorigin="anonymous"></script>
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Kitchen</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/6b1870cd0b.js" crossorigin="anonymous"></script>
+</head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark mybgcolor bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"><span class="h3">Global Kitchen</span></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-    
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item active">
-                <a class="nav-link h4" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link h4" href="#footer">Contact</a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0 ">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-            </form>
+  <nav class="navbar navbar-expand-lg navbar-dark mybgcolor bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><span class="h3">Global Kitchen</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link h4" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link h4" href="#footer">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 ">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="back-image">
+    <div class="text-center mytext">
+      <h2> Let food be thy medicine and medicine be thy food.</h2>
+      <p>- Hippocrates</p>
+    </div>
+  </div>
+  <div class="mycontainer mt-2">
+    <section id="categories">
+      <div class="text-center h3 mb-3"><i class="p-1 text-danger fas fa-utensils"></i>meals by <span
+          class="textcolor font-weight-bold">Categories</span></div>
+      <ul class="row d-flex justify-content-center mx-auto list-unstyled mylist">
+        <li class="col-6 col-md-4 col-lg-3">
+          <button class="btn btn-outline-dark btn-block mycategory-btn" data-category="Breakfast">Breakfast</button>
+        </li>
+        <li class="col-6 col-md-4 col-lg-3">
+          <button class="btn btn-outline-dark btn-block mycategory-btn" data-category="Beef">Beef</button>
+        </li>
+        <li class="col-6 col-md-4 col-lg-3">
+          <button class="btn btn-outline-dark btn-block mycategory-btn" data-category="Chicken">Chicken</button>
+        </li>
+
+        <li class="col-6 col-md-4 col-lg-3">
+          <button class="btn btn-outline-dark btn-block mycategory-btn" data-category="Fish">Fish</button>
+        </li>
+        <li class="col-6 col-md-4 col-lg-3">
+          <button class="btn btn-outline-dark btn-block mycategory-btn" data-category="Goat">Goat</button>
+        </li>
+        <li class="col-6 col-md-4 col-lg-3">
+          <button class="btn btn-outline-dark btn-block mycategory-btn" data-category="Lamb">Lamb</button>
+        </li>
+        <li class="col-6 col-md-4 col-lg-3">
+          <button class="btn btn-outline-dark btn-block mycategory-btn" data-category="Pork">Pork</button>
+        </li>
+        <li class="col-6 col-md-4 col-lg-3">
+          <button class="btn btn-outline-dark btn-block mycategory-btn" data-category="Seafood">Seafood</button>
+        </li>
+        <li class="col-6 col-md-4 col-lg-3">
+          <button class="btn btn-outline-dark btn-block mycategory-btn" data-category="Rice">Rice</button>
+        </li>
+        <li class="col-6 col-md-4 col-lg-3">
+          <button class="btn btn-outline-dark btn-block mycategory-btn" data-category="Chocolate">Dessert</button>
+        </li>
+        <li class="col-6 col-md-4 col-lg-3">
+          <button class="btn btn-outline-dark btn-block mycategory-btn" data-category="Vegan">Vegan</button>
+        </li>
+        <li class="col-6 col-md-4 col-lg-3">
+          <button class="btn btn-outline-dark btn-block mycategory-btn" data-category="Vegetarian">Vegetarian</button>
+        </li>
+      </ul>
+    </section>
+
+    <section id="random">
+      
+    </section>
+  </div>
+
+    <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark mybgcolor text-white">
+      <div class="container">
+          <div class="row ">
+              <div class="col-md-4 text-center mx-auto">
+                  <h5>Global Kitchen</h5>
+                  <p>
+                      We are a team of dedicated professionals delivering delicious meals to your doorstep
+                  </p>
+              </div>
+              <div class="col-md-4 text-center mx-auto">
+                  <h5>Links</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="https://google.com">Google</a>
+                      </li>
+                      <li><a href="https://facebook.com">Facebook</a>
+                      </li>
+                      <li><a href="https://twitter.com">Twitter</a>
+                  </ul>
+              </div>
+              <div class="col-md-4 text-center mx-auto">
+                  <h5>Contact</h5>
+                  <ul class="list-unstyled">
+                      <li>Phone: +880 1234567890</li>
+                      <li>Email:abc@book.org
+                      </li>
+                      <li>Address: 123, ABC Road, XYZ City</li>
+                  </ul>
+              </div>
           </div>
-        </div>
-      </nav>
-      <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark mybgcolor text-white">
-        <div class="container">
-            <div class="row ">
-                <div class="col-md-4 text-center mx-auto">
-                    <h5>Global Kitchen</h5>
-                    <p>
-                        We are a team of dedicated professionals delivering delicious meals to your doorstep
-                    </p>
-                </div>
-                <div class="col-md-4 text-center mx-auto">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="https://google.com">Google</a>
-                        </li>
-                        <li><a href="https://facebook.com">Facebook</a>
-                        </li>
-                        <li><a href="https://twitter.com">Twitter</a>
-                    </ul>
-                </div>
-                <div class="col-md-4 text-center mx-auto">
-                    <h5>Contact</h5>
-                    <ul class="list-unstyled">
-                        <li>Phone: +880 1234567890</li>
-                        <li>Email:abc@book.org
-                        </li>
-                        <li>Address: 123, ABC Road, XYZ City</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="container text-center">
-            <small>&copy; 2024 Sani. All rights reserved.</small>
-        </div>
-    </footer>
+      </div>
+      <div class="container text-center">
+          <small>&copy; 2024 Sani. All rights reserved.</small>
+      </div>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
